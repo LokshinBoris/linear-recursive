@@ -69,6 +69,7 @@ class LinearRecurciveTest {
 		void squareTest() {
 			assertEquals(100, square(10));
 			assertEquals(100, square(-10));
+			assertEquals(0, square(0));
 		}
 		@Test
 		void isSubstringTest() {

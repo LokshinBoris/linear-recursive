@@ -143,6 +143,7 @@ public class LinearRecurcionMethods
 	{
 		int res=1;
 		if(x<0) x=-x;
+		if(x==0) res=0;
 		if(x>1) res=square(x-1)+x+x-1;
 		return res;
 	}
